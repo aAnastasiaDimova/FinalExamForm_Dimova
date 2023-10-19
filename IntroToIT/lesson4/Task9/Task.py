@@ -2,4 +2,4 @@
 
 def greet():
     print("Привет!")
-print(greet())
+greet()
