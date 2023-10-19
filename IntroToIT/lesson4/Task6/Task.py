@@ -1,6 +1,6 @@
 #INTRO TO IT 2nd COURSE
 
-fruits = [
+fruits == [
     "apple",
     "banana"
   "cherry"

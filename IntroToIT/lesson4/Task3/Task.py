@@ -1,4 +1,4 @@
 #INTRO TO IT 2nd COURSE
 
-fruit = "apple"
+fruit == "apple"
 print(friut)
