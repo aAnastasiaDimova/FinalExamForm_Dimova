@@ -1,5 +1,4 @@
 #INTRO TO IT 2nd COURSE
 
-greet():
+def greet(name):
     print("Привет!")
-greet()
