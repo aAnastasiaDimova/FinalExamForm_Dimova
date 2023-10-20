@@ -1,5 +1,4 @@
-#INTRO TO IT 2nd COURSE
-
-greet():
+#INTRO TO IT 2nd COURS
+def greet():
     print("Привет!")
 greet()
