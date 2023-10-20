@@ -1,4 +1,4 @@
 #INTRO TO IT 2nd COURSE
 
-fruit = "apple"
-print(friut)
+fruit == apple
+print("fruit")

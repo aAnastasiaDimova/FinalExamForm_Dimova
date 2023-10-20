@@ -1,7 +1,7 @@
 #INTRO TO IT 2nd COURSE
 
 fruits = [
-    "apple",
+    "apple"
     "banana"
   "cherry"
 ]
