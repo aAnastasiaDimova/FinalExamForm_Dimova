@@ -1,10 +1,10 @@
 #INTRO TO IT 2nd COURSE
 
 def factorial(n):
-    if n = 0:
+    if n == 0:
         return 1
     else:
         return n * factorial(n-1)
 
-number = int(input("Введите число: "))
-print("Факториал числа:", factorial(number))
+number = int(input("Enter a number: "))
+print("Factorial of a number:", factorial(number))

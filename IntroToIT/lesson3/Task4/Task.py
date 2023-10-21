@@ -1,6 +1,6 @@
 #INTRO TO IT 2nd COURSE
-number = int(input("Введите число: "))
-if number % 2 = 0:
-    print("Число четное")
+number = int(input("Enter a number: "))
+if number % 2 == 0:
+    print("Number is even")
 else:
-    print("Число нечетное")
+    print("Number is odd")
