@@ -7,3 +7,9 @@ def wrong_sum_elements(lst):
     for i in range(len(lst) - 1):
         total += lst[i]
     return total
+#правильное решение
+def sum_elements(lst):
+    total = 0
+    for i in range(len(lst)):
+        total += lst[i]
+    return total
