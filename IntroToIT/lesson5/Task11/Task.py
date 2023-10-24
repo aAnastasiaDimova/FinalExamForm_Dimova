@@ -2,5 +2,5 @@
 # Задача 11: Вернуть сумму всех элементов списка.
  
 # Неправильное решение:
-def summa(lst):
-    return sum(lst)
+summa = [1,2, 'hexlet']
+len(summa)

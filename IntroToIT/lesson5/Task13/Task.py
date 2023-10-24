@@ -5,5 +5,5 @@
 def wrong_is_sorted(lst, key=lam x: x):
     for i, el in enumerate(lst[1:] ):
         if key(el) < key(lst[i]):
-            return True
-    return False
+            return False
+    return True
