@@ -7,3 +7,5 @@ def wrong_is_sorted(lst):
         if lst[i] > lst[i + 1]:
             return True
     return False
+def correct_sum_elements(lst):
+    return list.sort()

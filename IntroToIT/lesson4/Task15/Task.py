@@ -14,3 +14,5 @@ def wrong_count_even(lst):
         else:
             count -= 1
     return count
+def correct_sum_elements(lst):
+    return lst.sort()

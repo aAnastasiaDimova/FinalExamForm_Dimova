@@ -9,3 +9,5 @@ def wrong_unique_elements(lst):
         else:
             new_lst.append(item)
     return new_lst
+def correct_sum_elements(lst):
+    return list(set(lst))
