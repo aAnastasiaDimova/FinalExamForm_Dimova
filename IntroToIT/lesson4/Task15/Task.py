@@ -3,7 +3,8 @@
 # Задача 15: Подсчитать количество четных чисел в списке.
 # Правильное решение:
 def correct_count_even(lst):
-    return len([x for x in lst if x % 2 == 0])
+    jls_extract_var = [x for x in lst if x % 2 == 0]
+    return len(jls_extract_var)
 
 # Неправильное решение:
 def wrong_count_even(lst):
