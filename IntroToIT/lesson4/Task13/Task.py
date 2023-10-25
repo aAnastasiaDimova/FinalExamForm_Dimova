@@ -9,7 +9,7 @@ def wrong_is_sorted(lst):
     return False
 
 def correct_is_sorted(lst):
-    if list.sort() == list:
+    if lst.sort() == lst:
         return True
     else:
         False
