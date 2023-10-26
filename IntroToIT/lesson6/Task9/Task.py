@@ -1,4 +1,10 @@
 #INTRO TO IT 2nd COURSE
 # Задача 9: Переворот строки
-n = input () [ : :-1]
-    print(n)
+def reverse_string(s):
+    res=''
+    for i in range(len(s)-1,-1,-1):
+        res+=s[i]
+    return res
+
+n = reverse_string(input())
+print(n)
