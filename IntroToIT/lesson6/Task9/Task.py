@@ -2,4 +2,3 @@
 # Задача 9: Переворот строки
 def reverse_string(s):
     return s[::-1]
-мяу
