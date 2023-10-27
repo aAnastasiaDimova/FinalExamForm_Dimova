@@ -21,7 +21,7 @@ class TestFunctions(unittest.TestCase):
     def test_sum_of_digits(self):
         # Тест на подсчет суммы цифр числа
         # Сумма цифр числа 123 должна быть 6
-        self.assertEqual(sum_of_digits(123), 6,
+        self.assertEqual(sum_of_digits(123 == 6),
                          msg="Ошибка: сумма цифр числа рассчитана неверно (123 != 6)")
      
 

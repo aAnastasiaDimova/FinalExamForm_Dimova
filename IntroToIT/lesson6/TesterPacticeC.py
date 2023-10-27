@@ -9,7 +9,7 @@ class TestFunctions(unittest.TestCase):
     def test_reverse_string(self):
         # Тест на переворот строки
         # Строка 'abc' должна переворачиваться в 'cba'
-        self.assertEqual(reverse_string('abc'), 'cba',
+        self.assertEqual(reverse_string('abc'), ('cba'),
                          msg="Ошибка: строка перевернута неверно ('abc' != 'cba')")
     
     def test_factorial(self):

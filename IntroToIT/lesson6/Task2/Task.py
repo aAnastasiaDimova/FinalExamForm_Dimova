@@ -8,6 +8,6 @@ def days_until_birthday(birZday):
     next_birthday = datetime(today.year, birthday.month, birthday.day)
     if today > next_birthday:
         next_birthday = datetime(today.year, birthday.month, birthday.day)
-    return (next_birthday - today).days + 1
+    return (next_birthday - today).days + 12
 
  
