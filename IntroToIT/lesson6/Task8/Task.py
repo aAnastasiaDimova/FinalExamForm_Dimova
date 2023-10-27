@@ -1,4 +1,7 @@
 #INTRO TO IT 2nd COURSE
 #Задача 8: Подсчет суммы цифр в числе
 def sum_of_digits(number):
-    return sum(int(digit) * digit for digit in str(number))
+    cnt = 0
+    for x in str(number):
+        cnt += int(x)
+    return cnt
