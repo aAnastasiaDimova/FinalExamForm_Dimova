@@ -7,3 +7,6 @@ def wrong_is_sorted(lst):
         if lst[i] > lst[i + 1]:
             return True
     return False
+
+def right_is_sorted(lst):
+    return lst == sorted(lst)
