@@ -9,5 +9,5 @@ def wrong_sum_elements(lst):
     return total
 
 # Правильное решение:
-total = sum(wrong_sum_elements)
-print(total)
+def correct(lst):
+    return sum(lst)
