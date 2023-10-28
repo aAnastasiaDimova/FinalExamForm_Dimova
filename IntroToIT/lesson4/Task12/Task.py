@@ -9,3 +9,6 @@ def wrong_unique_elements(lst):
         else:
             new_lst.append(item)
     return new_lst
+# Правильное решение:
+wrong_unique_elements = list(set(wrong_unique_elements))
+print (str(wrong_unique_elements))
