@@ -8,10 +8,5 @@ def wrong_is_sorted(lst):
             return True
     return False
 #Правильное решение (ну а, способо другой же))))
-from itertools import imap, tee
-import operator
-
-def wrong_is_sorted(iterable, compare=operator.le):
-  a, b = tee(iterable)
-  next(b, None)
-  return all(imap(compare, a, b))
+def correct_unipue_elements(lst):
+    return lst == sorted(lst)
