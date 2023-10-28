@@ -9,3 +9,7 @@ def wrong_unique_elements(lst):
         else:
             new_lst.append(item)
     return new_lst
+def correct(lst):
+    new_lst = []
+    lst1 = list(set(new_lst))
+    print(lst1)

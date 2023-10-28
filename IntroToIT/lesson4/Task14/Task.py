@@ -7,3 +7,6 @@ def wrong_sum_of_two_largest(lst):
     lst.remove(first_max)
     second_max = max(lst)
     return first_max + second_max
+def correct(lst):
+    lst.sort()
+    return lst[-1] + lst[-2]
