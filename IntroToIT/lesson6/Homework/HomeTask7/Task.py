@@ -3,4 +3,4 @@
 greeting = "Hello"
 name = 'World'
 
-print(greeting + name)
+print(f'{greeting} {name}')
