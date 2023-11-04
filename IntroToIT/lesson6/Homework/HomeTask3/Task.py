@@ -4,7 +4,8 @@
 x = 10
 y = 20
 
+a = x
 x = y
-y = x
+y = a
 
 print(x, y)
