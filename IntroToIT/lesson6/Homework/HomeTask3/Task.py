@@ -4,7 +4,8 @@
 x = 10
 y = 20
 
+z = x
 x = y
-y = x
+y = z
 
 print(x, y)
