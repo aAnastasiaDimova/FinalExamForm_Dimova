@@ -3,8 +3,10 @@
 
 x = 10
 y = 20
+e = 0
 
+e = x
 x = y
-y = x
+y = e
 
 print(x, y)
