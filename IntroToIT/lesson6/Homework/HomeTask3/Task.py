@@ -4,7 +4,7 @@
 x = 10
 y = 20
 
-x = y
+t = y
 y = x
 
-print(x, y)
+print(x,t)

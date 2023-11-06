@@ -3,4 +3,6 @@
 #(Предположим, что это простой кредит без процентов)
 
 def iphone_credit_cost(iphone_price, months):
-    return iphone_price ** months
+    if months <= 0:
+        return 0
+    return iphone_price / months
