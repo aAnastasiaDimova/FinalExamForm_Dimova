@@ -4,7 +4,10 @@
 x = 10
 y = 20
 
-x = y
-y = x
+x1 = y
+y1 = x
+
+x=x1
+y=y1
 
 print(x, y)
