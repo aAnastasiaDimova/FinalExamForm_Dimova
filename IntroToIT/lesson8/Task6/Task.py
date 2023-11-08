@@ -3,5 +3,6 @@
 def reverse_string(s):
     reversed_s = ''
     for char in s:
-        reversed_s = reversed_s  # неправильное присваивание для реверсирования строки
+        reversed_s = char + reversed_s # неправильное присваивание для реверсирования строки
     return reversed_s
+print(reverse_string('hii'))
