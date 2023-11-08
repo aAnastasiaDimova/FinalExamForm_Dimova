@@ -1,19 +1,23 @@
 #INTRO TO IT 2nd COURSE
+
+#складываем числа ははは
 def add_numbers(a, b): 
 
     result = a + b 
     return result
 
+#умножаем их между собой
 def multiply_numbers(a, b):
 
     result = a * b
     return result
-
+＃ищем максимальное число 
 def find_max_number(numbers):
 
     max_number = max(numbers)
     return max_number
 
+#вычисляем факториал
 def calculate_factorial(n):
  
     if n == 0:
@@ -22,7 +26,7 @@ def calculate_factorial(n):
     for i in range(1, n + 1):
         factorial *= i
     return factorial
-
+#узнаем четность числа
 def is_even(number):
 
     if number % 2 == 0:
