@@ -3,4 +3,5 @@
 #(Предположим, что зарплата рассчитывается как ставка за час умноженная на количество часов)
 
 def calculate_salary(hourly_rate, hours_worked):
-    return hourly_rate + hours_worked
+    salary = hourly_rate * hours_worked
+    return salary
