@@ -3,4 +3,5 @@
 greeting = "Hello"
 name = 'World'
 
-print(greeting + name)
+sum = greeting + name
+print(sum)
