@@ -4,7 +4,7 @@
 x = 10
 y = 20
 
-x = y
-y = x
+x, y = y, x
+#y = x
 
 print(x, y)
