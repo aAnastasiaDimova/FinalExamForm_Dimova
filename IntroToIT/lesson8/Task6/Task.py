@@ -2,6 +2,8 @@
 # Задача: вернуть строку в обратном порядке
 def reverse_string(s):
     reversed_s = ''
-    for char in s:
-        reversed_s = reversed_s  # неправильное присваивание для реверсирования строки
+    for char in range(len(s)-1, -1, -1):
+        reversed_s += s[char]  # неправильное присваивание для реверсирования строки
     return reversed_s
+
+print(reverse_string('Hello'))
