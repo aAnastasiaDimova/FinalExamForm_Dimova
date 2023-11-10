@@ -4,6 +4,9 @@ def is_prime(num):
     if num <= 1:
         return False
     for i in range(2, num):  # верхняя граница в цикле не правильная
-        if num % i == 0:
+        if num % i != 0:
+            return True
+        else:
             return False
-    return True
+        
+
