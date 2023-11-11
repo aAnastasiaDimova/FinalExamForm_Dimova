@@ -1,19 +1,20 @@
 #INTRO TO IT 2nd COURSE
+#Функция считает сумму дву чисел
 def add_numbers(a, b):
 
     result = a + b
     return result
-
+#Функция считает произведение двух чисел
 def multiply_numbers(a, b):
 
     result = a * b
     return result
-
+#Функция находит максимальное число в списке
 def find_max_number(numbers):
 
     max_number = max(numbers)
     return max_number
-
+#Функция считает факториал числа
 def calculate_factorial(n):
  
     if n == 0:
@@ -22,7 +23,7 @@ def calculate_factorial(n):
     for i in range(1, n + 1):
         factorial *= i
     return factorial
-
+#Функция определяет четное число или нечетное
 def is_even(number):
 
     if number % 2 == 0:
