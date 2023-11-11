@@ -3,8 +3,9 @@
 
 x = 10
 y = 20
+c = x
 
 x = y
-y = x
+y = c
 
 print(x, y)

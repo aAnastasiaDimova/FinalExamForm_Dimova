@@ -2,5 +2,6 @@
 
 greeting = "Hello"
 name = 'World'
+resault = greeting + " " + name
 
-print(greeting + name)
+print(resault)
