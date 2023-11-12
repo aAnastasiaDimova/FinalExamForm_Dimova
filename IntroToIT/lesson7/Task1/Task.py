@@ -1,20 +1,20 @@
 #INTRO TO IT 2nd COURSE
-def add_numbers(a, b):
+def add_numbers(a, b): #Сумма чисел
 
     result = a + b
     return result
 
-def multiply_numbers(a, b):
+def multiply_numbers(a, b): #Произведение чисел
 
     result = a * b
     return result
 
-def find_max_number(numbers):
+def find_max_number(numbers): #Поиск наибольшего числа
 
     max_number = max(numbers)
     return max_number
 
-def calculate_factorial(n):
+def calculate_factorial(n): #Нахождение факториала
  
     if n == 0:
         return 1
@@ -23,7 +23,7 @@ def calculate_factorial(n):
         factorial *= i
     return factorial
 
-def is_even(number):
+def is_even(number): #Определение четности числа
 
     if number % 2 == 0:
         return True
