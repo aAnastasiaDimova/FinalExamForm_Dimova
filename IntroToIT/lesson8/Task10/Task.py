@@ -3,7 +3,13 @@
 def second_largest(numbers):
     first = second = float('-inf')
     for n in numbers:
-        first = n  # Ошибка в логике определения первого и второго наибольшего
+        if n > first:
+            x = first
+            first = n
+            second = x
+        elif n > second:
+            second = n
+            
     return second if second != float('-inf') else None
 
 print(second_largest([10, 4, 9, 4, 9, 10, 4]))  # Должно вывести 9
